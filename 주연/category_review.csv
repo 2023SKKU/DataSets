@@ -1,15 +1,1 @@
-userid,product_category,productName,content,star_rating,review_ranking_score,time
-
-def replace_word(review):
-    for i in range(len(replace_list['before_content'])):
-        try:
-            # 치환할 단어가 있는 경우에만 데이터 치환 수행
-            if replace_list['before_content'][i] in review:
-                review = review.replace(replace_list['before_content'][i], replace_list['after_content'][i])
-        except Exception as e:
-            print(f"Error 발생 / 에러명: {e}"
-    return review
-
-
-
 
